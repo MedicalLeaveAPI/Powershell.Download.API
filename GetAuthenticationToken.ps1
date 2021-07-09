@@ -12,7 +12,7 @@ Function Get-AuthenticationToken {
 	Write-Host 'Retrieving token...' -ForegroundColor Green
 	Write-Host 'Client ' -ForegroundColor Yellow -NoNewline
 	Write-Host $ClientId -ForegroundColor White
-	Write-Host 'Retrieving Token'
+	Write-Host 'Token Retrieved'
 	Write-Host ''
 
 	$Headers = @{
